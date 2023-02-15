@@ -1,0 +1,241 @@
+{
+    "title": "Recording 16.2.2023 QA TEST CASE 15-16",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 964,
+            "height": 721,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://jpetstore.aspectran.com/catalog/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": "JPetStore Demo"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#LogoContent > a > img"
+                ],
+                [
+                    "xpath///*[@id=\"LogoContent\"]/a/img"
+                ]
+            ],
+            "offsetY": 11.67498779296875,
+            "offsetX": 76,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "#SearchContent > form > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ]
+            ],
+            "offsetY": 14.92498779296875,
+            "offsetX": 37.5
+        },
+        {
+            "type": "change",
+            "value": "fish",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "#SearchContent > form > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Search"
+                ],
+                [
+                    "#SearchContent > form > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/div/button"
+                ],
+                [
+                    "text/Search"
+                ]
+            ],
+            "offsetY": 22.92498779296875,
+            "offsetX": 25.5,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=fish",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#LogoContent > a > img"
+                ],
+                [
+                    "xpath///*[@id=\"LogoContent\"]/a/img"
+                ]
+            ],
+            "offsetY": 22.67498779296875,
+            "offsetX": 125,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign In"
+                ],
+                [
+                    "#MenuContent > a:nth-child(3)"
+                ],
+                [
+                    "xpath///*[@id=\"MenuContent\"]/a[2]"
+                ],
+                [
+                    "text/Sign In"
+                ]
+            ],
+            "offsetY": 7.92498779296875,
+            "offsetX": 28.212493896484375,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/account/signonForm",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Login"
+                ],
+                [
+                    "#Signon > form > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"Signon\"]/form/div/div/button"
+                ],
+                [
+                    "text/Login"
+                ]
+            ],
+            "offsetY": 5.46246337890625,
+            "offsetX": 8.42498779296875,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "#SearchContent > form > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ]
+            ],
+            "offsetY": 34.92498779296875,
+            "offsetX": 26.5
+        },
+        {
+            "type": "change",
+            "value": "fish",
+            "selectors": [
+                [
+                    "aria/Product Search"
+                ],
+                [
+                    "#SearchContent > form > div > input"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Search"
+                ],
+                [
+                    "#SearchContent > form > div > div > button"
+                ],
+                [
+                    "xpath///*[@id=\"SearchContent\"]/form/div/div/button"
+                ],
+                [
+                    "text/Search"
+                ]
+            ],
+            "offsetY": 15.92498779296875,
+            "offsetX": 23.5,
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://jpetstore.aspectran.com/catalog/searchProducts?keyword=fish",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
